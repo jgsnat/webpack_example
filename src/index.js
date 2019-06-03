@@ -1,3 +1,5 @@
+import 'react';
+
 const logger = require('./logger');
 import Pessoa from './models/pessoa';
 
@@ -21,3 +23,9 @@ const novoProduto = clone(produto);
 novoProduto.nome = 'Caneta Bic Azul'
 
 console.log(produto, novoProduto)
+
+export default props => (
+    <h1>Olá</h1>
+);
+
+console.log('Funcionou!')
