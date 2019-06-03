@@ -1,3 +1,4 @@
+import './estilo.css';
 import 'react';
 
 const logger = require('./logger');
@@ -28,4 +29,4 @@ export default props => (
     <h1>Olá</h1>
 );
 
-console.log('Funcionou!')
+console.log('Funcionou!');
